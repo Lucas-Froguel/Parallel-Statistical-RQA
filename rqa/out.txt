@@ -1,0 +1,111 @@
+
+x=6, y=13
+x=5, y=15
+x=14, y=14
+x=15, y=8
+x=10, y=12
+x=6, y=9
+
+-----Launching Kernel-----
+
+
+Thread 0 (global 0, block 0) on position i=0 and j=0 put on 0 the value 0
+Thread 1 (global 1, block 0) on position i=1 and j=0 put on 1 the value 0
+Thread 2 (global 2, block 0) on position i=2 and j=0 put on 2 the value 0
+Thread 3 (global 3, block 0) on position i=3 and j=0 put on 3 the value 1
+Thread 4 (global 4, block 0) on position i=0 and j=1 put on 4 the value 1
+Thread 5 (global 5, block 0) on position i=1 and j=1 put on 5 the value 1
+Thread 6 (global 6, block 0) on position i=2 and j=1 put on 6 the value 0
+Thread 7 (global 7, block 0) on position i=3 and j=1 put on 7 the value 0
+Thread 8 (global 8, block 0) on position i=0 and j=2 put on 8 the value 1
+Thread 9 (global 9, block 0) on position i=1 and j=2 put on 9 the value 1
+Thread 10 (global 10, block 0) on position i=2 and j=2 put on 10 the value 1
+Thread 11 (global 11, block 0) on position i=3 and j=2 put on 11 the value 0
+Thread 12 (global 12, block 0) on position i=0 and j=3 put on 12 the value 0
+Thread 13 (global 13, block 0) on position i=1 and j=3 put on 13 the value 0
+Thread 14 (global 14, block 0) on position i=2 and j=3 put on 14 the value 1
+Thread 15 (global 15, block 0) on position i=3 and j=3 put on 15 the value 0
+Thread 0 (global 2304, block 3) on position i=0 and j=0 put on 0 the value 1
+Thread 1 (global 2305, block 3) on position i=1 and j=0 put on 1 the value 1
+Thread 2 (global 2306, block 3) on position i=2 and j=0 put on 2 the value 0
+Thread 3 (global 2307, block 3) on position i=3 and j=0 put on 3 the value 0
+Thread 4 (global 2308, block 3) on position i=0 and j=1 put on 4 the value 0
+Thread 5 (global 2309, block 3) on position i=1 and j=1 put on 5 the value 0
+Thread 6 (global 2310, block 3) on position i=2 and j=1 put on 6 the value 1
+Thread 7 (global 2311, block 3) on position i=3 and j=1 put on 7 the value 0
+Thread 8 (global 2312, block 3) on position i=0 and j=2 put on 8 the value 1
+Thread 9 (global 2313, block 3) on position i=1 and j=2 put on 9 the value 1
+Thread 10 (global 2314, block 3) on position i=2 and j=2 put on 10 the value 0
+Thread 11 (global 2315, block 3) on position i=3 and j=2 put on 11 the value 1
+Thread 12 (global 2316, block 3) on position i=0 and j=3 put on 12 the value 0
+Thread 13 (global 2317, block 3) on position i=1 and j=3 put on 13 the value 0
+Thread 14 (global 2318, block 3) on position i=2 and j=3 put on 14 the value 1
+Thread 15 (global 2319, block 3) on position i=3 and j=3 put on 15 the value 0
+Thread 0 (global 768, block 1) on position i=0 and j=0 put on 0 the value 1
+Thread 1 (global 769, block 1) on position i=1 and j=0 put on 1 the value 1
+Thread 2 (global 770, block 1) on position i=2 and j=0 put on 2 the value 1
+Thread 3 (global 771, block 1) on position i=3 and j=0 put on 3 the value 1
+Thread 4 (global 772, block 1) on position i=0 and j=1 put on 4 the value 0
+Thread 5 (global 773, block 1) on position i=1 and j=1 put on 5 the value 0
+Thread 6 (global 774, block 1) on position i=2 and j=1 put on 6 the value 0
+Thread 7 (global 775, block 1) on position i=3 and j=1 put on 7 the value 1
+Thread 8 (global 776, block 1) on position i=0 and j=2 put on 8 the value 0
+Thread 9 (global 777, block 1) on position i=1 and j=2 put on 9 the value 0
+Thread 10 (global 778, block 1) on position i=2 and j=2 put on 10 the value 0
+Thread 11 (global 779, block 1) on position i=3 and j=2 put on 11 the value 0
+Thread 12 (global 780, block 1) on position i=0 and j=3 put on 12 the value 1
+Thread 13 (global 781, block 1) on position i=1 and j=3 put on 13 the value 1
+Thread 14 (global 782, block 1) on position i=2 and j=3 put on 14 the value 1
+Thread 15 (global 783, block 1) on position i=3 and j=3 put on 15 the value 0
+Thread 0 (global 3072, block 4) on position i=0 and j=0 put on 0 the value 1
+Thread 1 (global 3073, block 4) on position i=1 and j=0 put on 1 the value 1
+Thread 2 (global 3074, block 4) on position i=2 and j=0 put on 2 the value 1
+Thread 3 (global 3075, block 4) on position i=3 and j=0 put on 3 the value 0
+Thread 4 (global 3076, block 4) on position i=0 and j=1 put on 4 the value 0
+Thread 5 (global 3077, block 4) on position i=1 and j=1 put on 5 the value 1
+Thread 6 (global 3078, block 4) on position i=2 and j=1 put on 6 the value 0
+Thread 7 (global 3079, block 4) on position i=3 and j=1 put on 7 the value 1
+Thread 8 (global 3080, block 4) on position i=0 and j=2 put on 8 the value 1
+Thread 9 (global 3081, block 4) on position i=1 and j=2 put on 9 the value 0
+Thread 10 (global 3082, block 4) on position i=2 and j=2 put on 10 the value 0
+Thread 11 (global 3083, block 4) on position i=3 and j=2 put on 11 the value 0
+Thread 12 (global 3084, block 4) on position i=0 and j=3 put on 12 the value 1
+Thread 13 (global 3085, block 4) on position i=1 and j=3 put on 13 the value 0
+Thread 14 (global 3086, block 4) on position i=2 and j=3 put on 14 the value 0
+Thread 15 (global 3087, block 4) on position i=3 and j=3 put on 15 the value 0
+Thread 0 (global 3840, block 5) on position i=0 and j=0 put on 0 the value 0
+Thread 1 (global 3841, block 5) on position i=1 and j=0 put on 1 the value 0
+Thread 2 (global 3842, block 5) on position i=2 and j=0 put on 2 the value 0
+Thread 3 (global 3843, block 5) on position i=3 and j=0 put on 3 the value 1
+Thread 4 (global 3844, block 5) on position i=0 and j=1 put on 4 the value 1
+Thread 5 (global 3845, block 5) on position i=1 and j=1 put on 5 the value 1
+Thread 6 (global 3846, block 5) on position i=2 and j=1 put on 6 the value 1
+Thread 7 (global 3847, block 5) on position i=3 and j=1 put on 7 the value 0
+Thread 8 (global 3848, block 5) on position i=0 and j=2 put on 8 the value 0
+Thread 9 (global 3849, block 5) on position i=1 and j=2 put on 9 the value 0
+Thread 10 (global 3850, block 5) on position i=2 and j=2 put on 10 the value 0
+Thread 11 (global 3851, block 5) on position i=3 and j=2 put on 11 the value 1
+Thread 12 (global 3852, block 5) on position i=0 and j=3 put on 12 the value 0
+Thread 13 (global 3853, block 5) on position i=1 and j=3 put on 13 the value 0
+Thread 14 (global 3854, block 5) on position i=2 and j=3 put on 14 the value 1
+Thread 15 (global 3855, block 5) on position i=3 and j=3 put on 15 the value 0
+Thread 0 (global 1536, block 2) on position i=0 and j=0 put on 0 the value 1
+Thread 1 (global 1537, block 2) on position i=1 and j=0 put on 1 the value 1
+Thread 2 (global 1538, block 2) on position i=2 and j=0 put on 2 the value 0
+Thread 3 (global 1539, block 2) on position i=3 and j=0 put on 3 the value 0
+Thread 4 (global 1540, block 2) on position i=0 and j=1 put on 4 the value 1
+Thread 5 (global 1541, block 2) on position i=1 and j=1 put on 5 the value 1
+Thread 6 (global 1542, block 2) on position i=2 and j=1 put on 6 the value 0
+Thread 7 (global 1543, block 2) on position i=3 and j=1 put on 7 the value 0
+Thread 8 (global 1544, block 2) on position i=0 and j=2 put on 8 the value 0
+Thread 9 (global 1545, block 2) on position i=1 and j=2 put on 9 the value 0
+Thread 10 (global 1546, block 2) on position i=2 and j=2 put on 10 the value 1
+Thread 11 (global 1547, block 2) on position i=3 and j=2 put on 11 the value 0
+Thread 12 (global 1548, block 2) on position i=0 and j=3 put on 12 the value 0
+Thread 13 (global 1549, block 2) on position i=1 and j=3 put on 13 the value 0
+Thread 14 (global 1550, block 2) on position i=2 and j=3 put on 14 the value 0
+Thread 15 (global 1551, block 2) on position i=3 and j=3 put on 15 the value 1
+
+The LAM value is: 0.000000
+ deltaT(ns): 185111 ns for 1 ops 
+        ==> each op takes 185111 ns
