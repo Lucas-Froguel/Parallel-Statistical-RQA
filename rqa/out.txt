@@ -1,111 +1,410 @@
 
-x=6, y=13
-x=5, y=15
-x=14, y=14
-x=15, y=8
-x=10, y=12
-x=6, y=9
+x=4, y=1
 
 -----Launching Kernel-----
 
 
-Thread 0 (global 0, block 0) on position i=0 and j=0 put on 0 the value 0
+Thread 224 (global 224, block 0) on position i=14 and j=14 put on 224 the value 1
+Thread 0 (global 0, block 0) on position i=0 and j=0 put on 0 the value 1
 Thread 1 (global 1, block 0) on position i=1 and j=0 put on 1 the value 0
 Thread 2 (global 2, block 0) on position i=2 and j=0 put on 2 the value 0
-Thread 3 (global 3, block 0) on position i=3 and j=0 put on 3 the value 1
-Thread 4 (global 4, block 0) on position i=0 and j=1 put on 4 the value 1
-Thread 5 (global 5, block 0) on position i=1 and j=1 put on 5 the value 1
-Thread 6 (global 6, block 0) on position i=2 and j=1 put on 6 the value 0
-Thread 7 (global 7, block 0) on position i=3 and j=1 put on 7 the value 0
-Thread 8 (global 8, block 0) on position i=0 and j=2 put on 8 the value 1
-Thread 9 (global 9, block 0) on position i=1 and j=2 put on 9 the value 1
-Thread 10 (global 10, block 0) on position i=2 and j=2 put on 10 the value 1
-Thread 11 (global 11, block 0) on position i=3 and j=2 put on 11 the value 0
-Thread 12 (global 12, block 0) on position i=0 and j=3 put on 12 the value 0
-Thread 13 (global 13, block 0) on position i=1 and j=3 put on 13 the value 0
-Thread 14 (global 14, block 0) on position i=2 and j=3 put on 14 the value 1
-Thread 15 (global 15, block 0) on position i=3 and j=3 put on 15 the value 0
-Thread 0 (global 2304, block 3) on position i=0 and j=0 put on 0 the value 1
-Thread 1 (global 2305, block 3) on position i=1 and j=0 put on 1 the value 1
-Thread 2 (global 2306, block 3) on position i=2 and j=0 put on 2 the value 0
-Thread 3 (global 2307, block 3) on position i=3 and j=0 put on 3 the value 0
-Thread 4 (global 2308, block 3) on position i=0 and j=1 put on 4 the value 0
-Thread 5 (global 2309, block 3) on position i=1 and j=1 put on 5 the value 0
-Thread 6 (global 2310, block 3) on position i=2 and j=1 put on 6 the value 1
-Thread 7 (global 2311, block 3) on position i=3 and j=1 put on 7 the value 0
-Thread 8 (global 2312, block 3) on position i=0 and j=2 put on 8 the value 1
-Thread 9 (global 2313, block 3) on position i=1 and j=2 put on 9 the value 1
-Thread 10 (global 2314, block 3) on position i=2 and j=2 put on 10 the value 0
-Thread 11 (global 2315, block 3) on position i=3 and j=2 put on 11 the value 1
-Thread 12 (global 2316, block 3) on position i=0 and j=3 put on 12 the value 0
-Thread 13 (global 2317, block 3) on position i=1 and j=3 put on 13 the value 0
-Thread 14 (global 2318, block 3) on position i=2 and j=3 put on 14 the value 1
-Thread 15 (global 2319, block 3) on position i=3 and j=3 put on 15 the value 0
-Thread 0 (global 768, block 1) on position i=0 and j=0 put on 0 the value 1
-Thread 1 (global 769, block 1) on position i=1 and j=0 put on 1 the value 1
-Thread 2 (global 770, block 1) on position i=2 and j=0 put on 2 the value 1
-Thread 3 (global 771, block 1) on position i=3 and j=0 put on 3 the value 1
-Thread 4 (global 772, block 1) on position i=0 and j=1 put on 4 the value 0
-Thread 5 (global 773, block 1) on position i=1 and j=1 put on 5 the value 0
-Thread 6 (global 774, block 1) on position i=2 and j=1 put on 6 the value 0
-Thread 7 (global 775, block 1) on position i=3 and j=1 put on 7 the value 1
-Thread 8 (global 776, block 1) on position i=0 and j=2 put on 8 the value 0
-Thread 9 (global 777, block 1) on position i=1 and j=2 put on 9 the value 0
-Thread 10 (global 778, block 1) on position i=2 and j=2 put on 10 the value 0
-Thread 11 (global 779, block 1) on position i=3 and j=2 put on 11 the value 0
-Thread 12 (global 780, block 1) on position i=0 and j=3 put on 12 the value 1
-Thread 13 (global 781, block 1) on position i=1 and j=3 put on 13 the value 1
-Thread 14 (global 782, block 1) on position i=2 and j=3 put on 14 the value 1
-Thread 15 (global 783, block 1) on position i=3 and j=3 put on 15 the value 0
-Thread 0 (global 3072, block 4) on position i=0 and j=0 put on 0 the value 1
-Thread 1 (global 3073, block 4) on position i=1 and j=0 put on 1 the value 1
-Thread 2 (global 3074, block 4) on position i=2 and j=0 put on 2 the value 1
-Thread 3 (global 3075, block 4) on position i=3 and j=0 put on 3 the value 0
-Thread 4 (global 3076, block 4) on position i=0 and j=1 put on 4 the value 0
-Thread 5 (global 3077, block 4) on position i=1 and j=1 put on 5 the value 1
-Thread 6 (global 3078, block 4) on position i=2 and j=1 put on 6 the value 0
-Thread 7 (global 3079, block 4) on position i=3 and j=1 put on 7 the value 1
-Thread 8 (global 3080, block 4) on position i=0 and j=2 put on 8 the value 1
-Thread 9 (global 3081, block 4) on position i=1 and j=2 put on 9 the value 0
-Thread 10 (global 3082, block 4) on position i=2 and j=2 put on 10 the value 0
-Thread 11 (global 3083, block 4) on position i=3 and j=2 put on 11 the value 0
-Thread 12 (global 3084, block 4) on position i=0 and j=3 put on 12 the value 1
-Thread 13 (global 3085, block 4) on position i=1 and j=3 put on 13 the value 0
-Thread 14 (global 3086, block 4) on position i=2 and j=3 put on 14 the value 0
-Thread 15 (global 3087, block 4) on position i=3 and j=3 put on 15 the value 0
-Thread 0 (global 3840, block 5) on position i=0 and j=0 put on 0 the value 0
-Thread 1 (global 3841, block 5) on position i=1 and j=0 put on 1 the value 0
-Thread 2 (global 3842, block 5) on position i=2 and j=0 put on 2 the value 0
-Thread 3 (global 3843, block 5) on position i=3 and j=0 put on 3 the value 1
-Thread 4 (global 3844, block 5) on position i=0 and j=1 put on 4 the value 1
-Thread 5 (global 3845, block 5) on position i=1 and j=1 put on 5 the value 1
-Thread 6 (global 3846, block 5) on position i=2 and j=1 put on 6 the value 1
-Thread 7 (global 3847, block 5) on position i=3 and j=1 put on 7 the value 0
-Thread 8 (global 3848, block 5) on position i=0 and j=2 put on 8 the value 0
-Thread 9 (global 3849, block 5) on position i=1 and j=2 put on 9 the value 0
-Thread 10 (global 3850, block 5) on position i=2 and j=2 put on 10 the value 0
-Thread 11 (global 3851, block 5) on position i=3 and j=2 put on 11 the value 1
-Thread 12 (global 3852, block 5) on position i=0 and j=3 put on 12 the value 0
-Thread 13 (global 3853, block 5) on position i=1 and j=3 put on 13 the value 0
-Thread 14 (global 3854, block 5) on position i=2 and j=3 put on 14 the value 1
-Thread 15 (global 3855, block 5) on position i=3 and j=3 put on 15 the value 0
-Thread 0 (global 1536, block 2) on position i=0 and j=0 put on 0 the value 1
-Thread 1 (global 1537, block 2) on position i=1 and j=0 put on 1 the value 1
-Thread 2 (global 1538, block 2) on position i=2 and j=0 put on 2 the value 0
-Thread 3 (global 1539, block 2) on position i=3 and j=0 put on 3 the value 0
-Thread 4 (global 1540, block 2) on position i=0 and j=1 put on 4 the value 1
-Thread 5 (global 1541, block 2) on position i=1 and j=1 put on 5 the value 1
-Thread 6 (global 1542, block 2) on position i=2 and j=1 put on 6 the value 0
-Thread 7 (global 1543, block 2) on position i=3 and j=1 put on 7 the value 0
-Thread 8 (global 1544, block 2) on position i=0 and j=2 put on 8 the value 0
-Thread 9 (global 1545, block 2) on position i=1 and j=2 put on 9 the value 0
-Thread 10 (global 1546, block 2) on position i=2 and j=2 put on 10 the value 1
-Thread 11 (global 1547, block 2) on position i=3 and j=2 put on 11 the value 0
-Thread 12 (global 1548, block 2) on position i=0 and j=3 put on 12 the value 0
-Thread 13 (global 1549, block 2) on position i=1 and j=3 put on 13 the value 0
-Thread 14 (global 1550, block 2) on position i=2 and j=3 put on 14 the value 0
-Thread 15 (global 1551, block 2) on position i=3 and j=3 put on 15 the value 1
+Thread 3 (global 3, block 0) on position i=3 and j=0 put on 3 the value 0
+Thread 4 (global 4, block 0) on position i=4 and j=0 put on 4 the value 0
+Thread 5 (global 5, block 0) on position i=5 and j=0 put on 5 the value 1
+Thread 6 (global 6, block 0) on position i=6 and j=0 put on 6 the value 0
+Thread 7 (global 7, block 0) on position i=7 and j=0 put on 7 the value 1
+Thread 8 (global 8, block 0) on position i=8 and j=0 put on 8 the value 0
+Thread 9 (global 9, block 0) on position i=9 and j=0 put on 9 the value 1
+Thread 10 (global 10, block 0) on position i=10 and j=0 put on 10 the value 0
+Thread 11 (global 11, block 0) on position i=11 and j=0 put on 11 the value 0
+Thread 12 (global 12, block 0) on position i=12 and j=0 put on 12 the value 0
+Thread 13 (global 13, block 0) on position i=13 and j=0 put on 13 the value 1
+Thread 14 (global 14, block 0) on position i=14 and j=0 put on 14 the value 0
+Thread 15 (global 15, block 0) on position i=0 and j=1 put on 15 the value 0
+Thread 16 (global 16, block 0) on position i=1 and j=1 put on 16 the value 1
+Thread 17 (global 17, block 0) on position i=2 and j=1 put on 17 the value 1
+Thread 18 (global 18, block 0) on position i=3 and j=1 put on 18 the value 1
+Thread 19 (global 19, block 0) on position i=4 and j=1 put on 19 the value 1
+Thread 20 (global 20, block 0) on position i=5 and j=1 put on 20 the value 0
+Thread 21 (global 21, block 0) on position i=6 and j=1 put on 21 the value 1
+Thread 22 (global 22, block 0) on position i=7 and j=1 put on 22 the value 0
+Thread 23 (global 23, block 0) on position i=8 and j=1 put on 23 the value 0
+Thread 24 (global 24, block 0) on position i=9 and j=1 put on 24 the value 0
+Thread 25 (global 25, block 0) on position i=10 and j=1 put on 25 the value 1
+Thread 26 (global 26, block 0) on position i=11 and j=1 put on 26 the value 1
+Thread 27 (global 27, block 0) on position i=12 and j=1 put on 27 the value 0
+Thread 28 (global 28, block 0) on position i=13 and j=1 put on 28 the value 0
+Thread 29 (global 29, block 0) on position i=14 and j=1 put on 29 the value 1
+Thread 30 (global 30, block 0) on position i=0 and j=2 put on 30 the value 0
+Thread 31 (global 31, block 0) on position i=1 and j=2 put on 31 the value 0
+Thread 96 (global 96, block 0) on position i=6 and j=6 put on 96 the value 1
+Thread 97 (global 97, block 0) on position i=7 and j=6 put on 97 the value 0
+Thread 98 (global 98, block 0) on position i=8 and j=6 put on 98 the value 0
+Thread 99 (global 99, block 0) on position i=9 and j=6 put on 99 the value 0
+Thread 100 (global 100, block 0) on position i=10 and j=6 put on 100 the value 1
+Thread 101 (global 101, block 0) on position i=11 and j=6 put on 101 the value 1
+Thread 102 (global 102, block 0) on position i=12 and j=6 put on 102 the value 0
+Thread 103 (global 103, block 0) on position i=13 and j=6 put on 103 the value 0
+Thread 104 (global 104, block 0) on position i=14 and j=6 put on 104 the value 1
+Thread 105 (global 105, block 0) on position i=0 and j=7 put on 105 the value 0
+Thread 106 (global 106, block 0) on position i=1 and j=7 put on 106 the value 0
+Thread 107 (global 107, block 0) on position i=2 and j=7 put on 107 the value 0
+Thread 108 (global 108, block 0) on position i=3 and j=7 put on 108 the value 1
+Thread 109 (global 109, block 0) on position i=4 and j=7 put on 109 the value 1
+Thread 110 (global 110, block 0) on position i=5 and j=7 put on 110 the value 0
+Thread 111 (global 111, block 0) on position i=6 and j=7 put on 111 the value 1
+Thread 112 (global 112, block 0) on position i=7 and j=7 put on 112 the value 0
+Thread 113 (global 113, block 0) on position i=8 and j=7 put on 113 the value 1
+Thread 114 (global 114, block 0) on position i=9 and j=7 put on 114 the value 0
+Thread 115 (global 115, block 0) on position i=10 and j=7 put on 115 the value 0
+Thread 116 (global 116, block 0) on position i=11 and j=7 put on 116 the value 1
+Thread 117 (global 117, block 0) on position i=12 and j=7 put on 117 the value 1
+Thread 118 (global 118, block 0) on position i=13 and j=7 put on 118 the value 0
+Thread 119 (global 119, block 0) on position i=14 and j=7 put on 119 the value 0
+Thread 120 (global 120, block 0) on position i=0 and j=8 put on 120 the value 1
+Thread 121 (global 121, block 0) on position i=1 and j=8 put on 121 the value 0
+Thread 122 (global 122, block 0) on position i=2 and j=8 put on 122 the value 0
+Thread 123 (global 123, block 0) on position i=3 and j=8 put on 123 the value 0
+Thread 124 (global 124, block 0) on position i=4 and j=8 put on 124 the value 0
+Thread 125 (global 125, block 0) on position i=5 and j=8 put on 125 the value 1
+Thread 126 (global 126, block 0) on position i=6 and j=8 put on 126 the value 0
+Thread 127 (global 127, block 0) on position i=7 and j=8 put on 127 the value 1
+Thread 128 (global 128, block 0) on position i=8 and j=8 put on 128 the value 0
+Thread 129 (global 129, block 0) on position i=9 and j=8 put on 129 the value 1
+Thread 130 (global 130, block 0) on position i=10 and j=8 put on 130 the value 0
+Thread 131 (global 131, block 0) on position i=11 and j=8 put on 131 the value 0
+Thread 132 (global 132, block 0) on position i=12 and j=8 put on 132 the value 0
+Thread 133 (global 133, block 0) on position i=13 and j=8 put on 133 the value 1
+Thread 134 (global 134, block 0) on position i=14 and j=8 put on 134 the value 0
+Thread 135 (global 135, block 0) on position i=0 and j=9 put on 135 the value 0
+Thread 136 (global 136, block 0) on position i=1 and j=9 put on 136 the value 1
+Thread 137 (global 137, block 0) on position i=2 and j=9 put on 137 the value 1
+Thread 138 (global 138, block 0) on position i=3 and j=9 put on 138 the value 1
+Thread 139 (global 139, block 0) on position i=4 and j=9 put on 139 the value 1
+Thread 140 (global 140, block 0) on position i=5 and j=9 put on 140 the value 0
+Thread 141 (global 141, block 0) on position i=6 and j=9 put on 141 the value 1
+Thread 142 (global 142, block 0) on position i=7 and j=9 put on 142 the value 0
+Thread 143 (global 143, block 0) on position i=8 and j=9 put on 143 the value 1
+Thread 144 (global 144, block 0) on position i=9 and j=9 put on 144 the value 0
+Thread 145 (global 145, block 0) on position i=10 and j=9 put on 145 the value 1
+Thread 146 (global 146, block 0) on position i=11 and j=9 put on 146 the value 1
+Thread 147 (global 147, block 0) on position i=12 and j=9 put on 147 the value 1
+Thread 148 (global 148, block 0) on position i=13 and j=9 put on 148 the value 0
+Thread 149 (global 149, block 0) on position i=14 and j=9 put on 149 the value 1
+Thread 150 (global 150, block 0) on position i=0 and j=10 put on 150 the value 1
+Thread 151 (global 151, block 0) on position i=1 and j=10 put on 151 the value 0
+Thread 152 (global 152, block 0) on position i=2 and j=10 put on 152 the value 0
+Thread 153 (global 153, block 0) on position i=3 and j=10 put on 153 the value 0
+Thread 154 (global 154, block 0) on position i=4 and j=10 put on 154 the value 0
+Thread 155 (global 155, block 0) on position i=5 and j=10 put on 155 the value 1
+Thread 156 (global 156, block 0) on position i=6 and j=10 put on 156 the value 0
+Thread 157 (global 157, block 0) on position i=7 and j=10 put on 157 the value 1
+Thread 158 (global 158, block 0) on position i=8 and j=10 put on 158 the value 1
+Thread 159 (global 159, block 0) on position i=9 and j=10 put on 159 the value 1
+Thread 160 (global 160, block 0) on position i=10 and j=10 put on 160 the value 0
+Thread 161 (global 161, block 0) on position i=11 and j=10 put on 161 the value 0
+Thread 162 (global 162, block 0) on position i=12 and j=10 put on 162 the value 0
+Thread 163 (global 163, block 0) on position i=13 and j=10 put on 163 the value 1
+Thread 164 (global 164, block 0) on position i=14 and j=10 put on 164 the value 0
+Thread 165 (global 165, block 0) on position i=0 and j=11 put on 165 the value 0
+Thread 166 (global 166, block 0) on position i=1 and j=11 put on 166 the value 0
+Thread 167 (global 167, block 0) on position i=2 and j=11 put on 167 the value 0
+Thread 168 (global 168, block 0) on position i=3 and j=11 put on 168 the value 0
+Thread 169 (global 169, block 0) on position i=4 and j=11 put on 169 the value 1
+Thread 170 (global 170, block 0) on position i=5 and j=11 put on 170 the value 0
+Thread 171 (global 171, block 0) on position i=6 and j=11 put on 171 the value 1
+Thread 172 (global 172, block 0) on position i=7 and j=11 put on 172 the value 1
+Thread 173 (global 173, block 0) on position i=8 and j=11 put on 173 the value 1
+Thread 174 (global 174, block 0) on position i=9 and j=11 put on 174 the value 0
+Thread 175 (global 175, block 0) on position i=10 and j=11 put on 175 the value 0
+Thread 176 (global 176, block 0) on position i=11 and j=11 put on 176 the value 0
+Thread 177 (global 177, block 0) on position i=12 and j=11 put on 177 the value 1
+Thread 178 (global 178, block 0) on position i=13 and j=11 put on 178 the value 0
+Thread 179 (global 179, block 0) on position i=14 and j=11 put on 179 the value 0
+Thread 180 (global 180, block 0) on position i=0 and j=12 put on 180 the value 1
+Thread 181 (global 181, block 0) on position i=1 and j=12 put on 181 the value 0
+Thread 182 (global 182, block 0) on position i=2 and j=12 put on 182 the value 0
+Thread 183 (global 183, block 0) on position i=3 and j=12 put on 183 the value 0
+Thread 184 (global 184, block 0) on position i=4 and j=12 put on 184 the value 0
+Thread 185 (global 185, block 0) on position i=5 and j=12 put on 185 the value 1
+Thread 186 (global 186, block 0) on position i=6 and j=12 put on 186 the value 0
+Thread 187 (global 187, block 0) on position i=7 and j=12 put on 187 the value 1
+Thread 188 (global 188, block 0) on position i=8 and j=12 put on 188 the value 0
+Thread 189 (global 189, block 0) on position i=9 and j=12 put on 189 the value 1
+Thread 190 (global 190, block 0) on position i=10 and j=12 put on 190 the value 0
+Thread 191 (global 191, block 0) on position i=11 and j=12 put on 191 the value 0
+Thread 192 (global 192, block 0) on position i=12 and j=12 put on 192 the value 0
+Thread 193 (global 193, block 0) on position i=13 and j=12 put on 193 the value 1
+Thread 194 (global 194, block 0) on position i=14 and j=12 put on 194 the value 0
+Thread 195 (global 195, block 0) on position i=0 and j=13 put on 195 the value 0
+Thread 196 (global 196, block 0) on position i=1 and j=13 put on 196 the value 1
+Thread 197 (global 197, block 0) on position i=2 and j=13 put on 197 the value 1
+Thread 198 (global 198, block 0) on position i=3 and j=13 put on 198 the value 1
+Thread 199 (global 199, block 0) on position i=4 and j=13 put on 199 the value 0
+Thread 200 (global 200, block 0) on position i=5 and j=13 put on 200 the value 0
+Thread 201 (global 201, block 0) on position i=6 and j=13 put on 201 the value 1
+Thread 202 (global 202, block 0) on position i=7 and j=13 put on 202 the value 0
+Thread 203 (global 203, block 0) on position i=8 and j=13 put on 203 the value 0
+Thread 204 (global 204, block 0) on position i=9 and j=13 put on 204 the value 0
+Thread 205 (global 205, block 0) on position i=10 and j=13 put on 205 the value 1
+Thread 206 (global 206, block 0) on position i=11 and j=13 put on 206 the value 1
+Thread 207 (global 207, block 0) on position i=12 and j=13 put on 207 the value 0
+Thread 208 (global 208, block 0) on position i=13 and j=13 put on 208 the value 0
+Thread 209 (global 209, block 0) on position i=14 and j=13 put on 209 the value 1
+Thread 210 (global 210, block 0) on position i=0 and j=14 put on 210 the value 0
+Thread 211 (global 211, block 0) on position i=1 and j=14 put on 211 the value 1
+Thread 212 (global 212, block 0) on position i=2 and j=14 put on 212 the value 1
+Thread 213 (global 213, block 0) on position i=3 and j=14 put on 213 the value 1
+Thread 214 (global 214, block 0) on position i=4 and j=14 put on 214 the value 1
+Thread 215 (global 215, block 0) on position i=5 and j=14 put on 215 the value 0
+Thread 216 (global 216, block 0) on position i=6 and j=14 put on 216 the value 1
+Thread 217 (global 217, block 0) on position i=7 and j=14 put on 217 the value 0
+Thread 218 (global 218, block 0) on position i=8 and j=14 put on 218 the value 0
+Thread 219 (global 219, block 0) on position i=9 and j=14 put on 219 the value 0
+Thread 220 (global 220, block 0) on position i=10 and j=14 put on 220 the value 1
+Thread 221 (global 221, block 0) on position i=11 and j=14 put on 221 the value 1
+Thread 222 (global 222, block 0) on position i=12 and j=14 put on 222 the value 0
+Thread 223 (global 223, block 0) on position i=13 and j=14 put on 223 the value 0
+Thread 32 (global 32, block 0) on position i=2 and j=2 put on 32 the value 0
+Thread 33 (global 33, block 0) on position i=3 and j=2 put on 33 the value 0
+Thread 34 (global 34, block 0) on position i=4 and j=2 put on 34 the value 1
+Thread 35 (global 35, block 0) on position i=5 and j=2 put on 35 the value 0
+Thread 36 (global 36, block 0) on position i=6 and j=2 put on 36 the value 1
+Thread 37 (global 37, block 0) on position i=7 and j=2 put on 37 the value 0
+Thread 38 (global 38, block 0) on position i=8 and j=2 put on 38 the value 1
+Thread 39 (global 39, block 0) on position i=9 and j=2 put on 39 the value 0
+Thread 40 (global 40, block 0) on position i=10 and j=2 put on 40 the value 0
+Thread 41 (global 41, block 0) on position i=11 and j=2 put on 41 the value 0
+Thread 42 (global 42, block 0) on position i=12 and j=2 put on 42 the value 1
+Thread 43 (global 43, block 0) on position i=13 and j=2 put on 43 the value 0
+Thread 44 (global 44, block 0) on position i=14 and j=2 put on 44 the value 0
+Thread 45 (global 45, block 0) on position i=0 and j=3 put on 45 the value 1
+Thread 46 (global 46, block 0) on position i=1 and j=3 put on 46 the value 0
+Thread 47 (global 47, block 0) on position i=2 and j=3 put on 47 the value 0
+Thread 48 (global 48, block 0) on position i=3 and j=3 put on 48 the value 0
+Thread 49 (global 49, block 0) on position i=4 and j=3 put on 49 the value 0
+Thread 50 (global 50, block 0) on position i=5 and j=3 put on 50 the value 1
+Thread 51 (global 51, block 0) on position i=6 and j=3 put on 51 the value 0
+Thread 52 (global 52, block 0) on position i=7 and j=3 put on 52 the value 1
+Thread 53 (global 53, block 0) on position i=8 and j=3 put on 53 the value 0
+Thread 54 (global 54, block 0) on position i=9 and j=3 put on 54 the value 1
+Thread 55 (global 55, block 0) on position i=10 and j=3 put on 55 the value 0
+Thread 56 (global 56, block 0) on position i=11 and j=3 put on 56 the value 0
+Thread 57 (global 57, block 0) on position i=12 and j=3 put on 57 the value 0
+Thread 58 (global 58, block 0) on position i=13 and j=3 put on 58 the value 1
+Thread 59 (global 59, block 0) on position i=14 and j=3 put on 59 the value 0
+Thread 60 (global 60, block 0) on position i=0 and j=4 put on 60 the value 0
+Thread 61 (global 61, block 0) on position i=1 and j=4 put on 61 the value 1
+Thread 62 (global 62, block 0) on position i=2 and j=4 put on 62 the value 1
+Thread 63 (global 63, block 0) on position i=3 and j=4 put on 63 the value 1
+Thread 64 (global 64, block 0) on position i=4 and j=4 put on 64 the value 0
+Thread 65 (global 65, block 0) on position i=5 and j=4 put on 65 the value 0
+Thread 66 (global 66, block 0) on position i=6 and j=4 put on 66 the value 1
+Thread 67 (global 67, block 0) on position i=7 and j=4 put on 67 the value 0
+Thread 68 (global 68, block 0) on position i=8 and j=4 put on 68 the value 0
+Thread 69 (global 69, block 0) on position i=9 and j=4 put on 69 the value 0
+Thread 70 (global 70, block 0) on position i=10 and j=4 put on 70 the value 1
+Thread 71 (global 71, block 0) on position i=11 and j=4 put on 71 the value 1
+Thread 72 (global 72, block 0) on position i=12 and j=4 put on 72 the value 0
+Thread 73 (global 73, block 0) on position i=13 and j=4 put on 73 the value 0
+Thread 74 (global 74, block 0) on position i=14 and j=4 put on 74 the value 1
+Thread 75 (global 75, block 0) on position i=0 and j=5 put on 75 the value 0
+Thread 76 (global 76, block 0) on position i=1 and j=5 put on 76 the value 1
+Thread 77 (global 77, block 0) on position i=2 and j=5 put on 77 the value 1
+Thread 78 (global 78, block 0) on position i=3 and j=5 put on 78 the value 1
+Thread 79 (global 79, block 0) on position i=4 and j=5 put on 79 the value 0
+Thread 80 (global 80, block 0) on position i=5 and j=5 put on 80 the value 0
+Thread 81 (global 81, block 0) on position i=6 and j=5 put on 81 the value 1
+Thread 82 (global 82, block 0) on position i=7 and j=5 put on 82 the value 0
+Thread 83 (global 83, block 0) on position i=8 and j=5 put on 83 the value 0
+Thread 84 (global 84, block 0) on position i=9 and j=5 put on 84 the value 0
+Thread 85 (global 85, block 0) on position i=10 and j=5 put on 85 the value 1
+Thread 86 (global 86, block 0) on position i=11 and j=5 put on 86 the value 1
+Thread 87 (global 87, block 0) on position i=12 and j=5 put on 87 the value 0
+Thread 88 (global 88, block 0) on position i=13 and j=5 put on 88 the value 0
+Thread 89 (global 89, block 0) on position i=14 and j=5 put on 89 the value 1
+Thread 90 (global 90, block 0) on position i=0 and j=6 put on 90 the value 0
+Thread 91 (global 91, block 0) on position i=1 and j=6 put on 91 the value 1
+Thread 92 (global 92, block 0) on position i=2 and j=6 put on 92 the value 1
+Thread 93 (global 93, block 0) on position i=3 and j=6 put on 93 the value 1
+Thread 94 (global 94, block 0) on position i=4 and j=6 put on 94 the value 1
+Thread 95 (global 95, block 0) on position i=5 and j=6 put on 95 the value 0
+Hey, we detected a 1 by tid=0 (block=0) at i=0, j=0
+Hey, we detected a 1 by tid=3 (block=0) at i=0, j=3
+Hey, we detected a 1 by tid=8 (block=0) at i=0, j=8
+Hey, we detected a 1 by tid=10 (block=0) at i=0, j=10
+Hey, we detected a 1 by tid=12 (block=0) at i=0, j=12
+Hey, we detected a 1 by tid=1 (block=0) at i=1, j=1
+Hey, we detected a 1 by tid=4 (block=0) at i=1, j=4
+Hey, we detected a 1 by tid=5 (block=0) at i=1, j=5
+Hey, we detected a 1 by tid=6 (block=0) at i=1, j=6
+Hey, we detected a 1 by tid=9 (block=0) at i=1, j=9
+Hey, we detected a 1 by tid=13 (block=0) at i=1, j=13
+Hey, we detected a 1 by tid=14 (block=0) at i=1, j=14
+Line detected by tid=0 (block=0) at i=1, j=0 of length 1
+Line detected by tid=3 (block=0) at i=1, j=3 of length 1
+Line detected by tid=8 (block=0) at i=1, j=8 of length 1
+Line detected by tid=10 (block=0) at i=1, j=10 of length 1
+Line detected by tid=12 (block=0) at i=1, j=12 of length 1
+Hey, we detected a 1 by tid=1 (block=0) at i=2, j=1
+Hey, we detected a 1 by tid=4 (block=0) at i=2, j=4
+Hey, we detected a 1 by tid=5 (block=0) at i=2, j=5
+Hey, we detected a 1 by tid=6 (block=0) at i=2, j=6
+Hey, we detected a 1 by tid=9 (block=0) at i=2, j=9
+Hey, we detected a 1 by tid=13 (block=0) at i=2, j=13
+Hey, we detected a 1 by tid=14 (block=0) at i=2, j=14
+Hey, we detected a 1 by tid=1 (block=0) at i=3, j=1
+Hey, we detected a 1 by tid=4 (block=0) at i=3, j=4
+Hey, we detected a 1 by tid=5 (block=0) at i=3, j=5
+Hey, we detected a 1 by tid=6 (block=0) at i=3, j=6
+Hey, we detected a 1 by tid=7 (block=0) at i=3, j=7
+Hey, we detected a 1 by tid=9 (block=0) at i=3, j=9
+Hey, we detected a 1 by tid=13 (block=0) at i=3, j=13
+Hey, we detected a 1 by tid=14 (block=0) at i=3, j=14
+Hey, we detected a 1 by tid=1 (block=0) at i=4, j=1
+Hey, we detected a 1 by tid=2 (block=0) at i=4, j=2
+Hey, we detected a 1 by tid=6 (block=0) at i=4, j=6
+Hey, we detected a 1 by tid=7 (block=0) at i=4, j=7
+Hey, we detected a 1 by tid=9 (block=0) at i=4, j=9
+Hey, we detected a 1 by tid=11 (block=0) at i=4, j=11
+Hey, we detected a 1 by tid=14 (block=0) at i=4, j=14
+Line detected by tid=4 (block=0) at i=4, j=4 of length 3
+Line detected by tid=5 (block=0) at i=4, j=5 of length 3
+Line detected by tid=13 (block=0) at i=4, j=13 of length 3
+Hey, we detected a 1 by tid=0 (block=0) at i=5, j=0
+Hey, we detected a 1 by tid=3 (block=0) at i=5, j=3
+Hey, we detected a 1 by tid=8 (block=0) at i=5, j=8
+Hey, we detected a 1 by tid=10 (block=0) at i=5, j=10
+Hey, we detected a 1 by tid=12 (block=0) at i=5, j=12
+Line detected by tid=1 (block=0) at i=5, j=1 of length 4
+Line detected by tid=2 (block=0) at i=5, j=2 of length 1
+Line detected by tid=6 (block=0) at i=5, j=6 of length 4
+Line detected by tid=7 (block=0) at i=5, j=7 of length 2
+Line detected by tid=9 (block=0) at i=5, j=9 of length 4
+Line detected by tid=11 (block=0) at i=5, j=11 of length 1
+Line detected by tid=14 (block=0) at i=5, j=14 of length 4
+Line detected by tid=0 (block=0) at i=6, j=0 of length 1
+Line detected by tid=3 (block=0) at i=6, j=3 of length 1
+Line detected by tid=8 (block=0) at i=6, j=8 of length 1
+Line detected by tid=10 (block=0) at i=6, j=10 of length 1
+Line detected by tid=12 (block=0) at i=6, j=12 of length 1
+Hey, we detected a 1 by tid=1 (block=0) at i=6, j=1
+Hey, we detected a 1 by tid=2 (block=0) at i=6, j=2
+Hey, we detected a 1 by tid=4 (block=0) at i=6, j=4
+Hey, we detected a 1 by tid=5 (block=0) at i=6, j=5
+Hey, we detected a 1 by tid=6 (block=0) at i=6, j=6
+Hey, we detected a 1 by tid=7 (block=0) at i=6, j=7
+Hey, we detected a 1 by tid=9 (block=0) at i=6, j=9
+Hey, we detected a 1 by tid=11 (block=0) at i=6, j=11
+Hey, we detected a 1 by tid=13 (block=0) at i=6, j=13
+Hey, we detected a 1 by tid=14 (block=0) at i=6, j=14
+Hey, we detected a 1 by tid=0 (block=0) at i=7, j=0
+Hey, we detected a 1 by tid=3 (block=0) at i=7, j=3
+Hey, we detected a 1 by tid=8 (block=0) at i=7, j=8
+Hey, we detected a 1 by tid=10 (block=0) at i=7, j=10
+Hey, we detected a 1 by tid=11 (block=0) at i=7, j=11
+Hey, we detected a 1 by tid=12 (block=0) at i=7, j=12
+Line detected by tid=1 (block=0) at i=7, j=1 of length 1
+Line detected by tid=2 (block=0) at i=7, j=2 of length 1
+Line detected by tid=4 (block=0) at i=7, j=4 of length 1
+Line detected by tid=5 (block=0) at i=7, j=5 of length 1
+Line detected by tid=6 (block=0) at i=7, j=6 of length 1
+Line detected by tid=7 (block=0) at i=7, j=7 of length 1
+Line detected by tid=9 (block=0) at i=7, j=9 of length 1
+Line detected by tid=13 (block=0) at i=7, j=13 of length 1
+Line detected by tid=14 (block=0) at i=7, j=14 of length 1
+Hey, we detected a 1 by tid=2 (block=0) at i=8, j=2
+Hey, we detected a 1 by tid=7 (block=0) at i=8, j=7
+Hey, we detected a 1 by tid=9 (block=0) at i=8, j=9
+Hey, we detected a 1 by tid=10 (block=0) at i=8, j=10
+Hey, we detected a 1 by tid=11 (block=0) at i=8, j=11
+Line detected by tid=0 (block=0) at i=8, j=0 of length 1
+Line detected by tid=3 (block=0) at i=8, j=3 of length 1
+Line detected by tid=8 (block=0) at i=8, j=8 of length 1
+Line detected by tid=12 (block=0) at i=8, j=12 of length 1
+Hey, we detected a 1 by tid=0 (block=0) at i=9, j=0
+Hey, we detected a 1 by tid=3 (block=0) at i=9, j=3
+Hey, we detected a 1 by tid=8 (block=0) at i=9, j=8
+Hey, we detected a 1 by tid=10 (block=0) at i=9, j=10
+Hey, we detected a 1 by tid=12 (block=0) at i=9, j=12
+Line detected by tid=2 (block=0) at i=9, j=2 of length 1
+Line detected by tid=7 (block=0) at i=9, j=7 of length 1
+Line detected by tid=9 (block=0) at i=9, j=9 of length 1
+Line detected by tid=11 (block=0) at i=9, j=11 of length 3
+Hey, we detected a 1 by tid=1 (block=0) at i=10, j=1
+Hey, we detected a 1 by tid=4 (block=0) at i=10, j=4
+Hey, we detected a 1 by tid=5 (block=0) at i=10, j=5
+Hey, we detected a 1 by tid=6 (block=0) at i=10, j=6
+Hey, we detected a 1 by tid=9 (block=0) at i=10, j=9
+Hey, we detected a 1 by tid=13 (block=0) at i=10, j=13
+Hey, we detected a 1 by tid=14 (block=0) at i=10, j=14
+Line detected by tid=0 (block=0) at i=10, j=0 of length 1
+Line detected by tid=3 (block=0) at i=10, j=3 of length 1
+Line detected by tid=8 (block=0) at i=10, j=8 of length 1
+Line detected by tid=10 (block=0) at i=10, j=10 of length 3
+Line detected by tid=12 (block=0) at i=10, j=12 of length 1
+Hey, we detected a 1 by tid=1 (block=0) at i=11, j=1
+Hey, we detected a 1 by tid=4 (block=0) at i=11, j=4
+Hey, we detected a 1 by tid=5 (block=0) at i=11, j=5
+Hey, we detected a 1 by tid=6 (block=0) at i=11, j=6
+Hey, we detected a 1 by tid=7 (block=0) at i=11, j=7
+Hey, we detected a 1 by tid=9 (block=0) at i=11, j=9
+Hey, we detected a 1 by tid=13 (block=0) at i=11, j=13
+Hey, we detected a 1 by tid=14 (block=0) at i=11, j=14
+Hey, we detected a 1 by tid=2 (block=0) at i=12, j=2
+Hey, we detected a 1 by tid=7 (block=0) at i=12, j=7
+Hey, we detected a 1 by tid=9 (block=0) at i=12, j=9
+Hey, we detected a 1 by tid=11 (block=0) at i=12, j=11
+Line detected by tid=1 (block=0) at i=12, j=1 of length 2
+Line detected by tid=4 (block=0) at i=12, j=4 of length 2
+Line detected by tid=5 (block=0) at i=12, j=5 of length 2
+Line detected by tid=6 (block=0) at i=12, j=6 of length 2
+Line detected by tid=13 (block=0) at i=12, j=13 of length 2
+Line detected by tid=14 (block=0) at i=12, j=14 of length 2
+Hey, we detected a 1 by tid=0 (block=0) at i=13, j=0
+Hey, we detected a 1 by tid=3 (block=0) at i=13, j=3
+Hey, we detected a 1 by tid=8 (block=0) at i=13, j=8
+Hey, we detected a 1 by tid=10 (block=0) at i=13, j=10
+Hey, we detected a 1 by tid=12 (block=0) at i=13, j=12
+Line detected by tid=2 (block=0) at i=13, j=2 of length 1
+Line detected by tid=7 (block=0) at i=13, j=7 of length 2
+Line detected by tid=9 (block=0) at i=13, j=9 of length 3
+Line detected by tid=11 (block=0) at i=13, j=11 of length 1
+Hey, we detected a 1 by tid=1 (block=0) at i=14, j=1
+Hey, we detected a 1 by tid=4 (block=0) at i=14, j=4
+Hey, we detected a 1 by tid=5 (block=0) at i=14, j=5
+Hey, we detected a 1 by tid=6 (block=0) at i=14, j=6
+Hey, we detected a 1 by tid=9 (block=0) at i=14, j=9
+Hey, we detected a 1 by tid=13 (block=0) at i=14, j=13
+Hey, we detected a 1 by tid=14 (block=0) at i=14, j=14
+Line detected by tid=1 (block=0) at i=14, j=1 of length 1
+Line detected by tid=4 (block=0) at i=14, j=4 of length 1
+Line detected by tid=5 (block=0) at i=14, j=5 of length 1
+Line detected by tid=6 (block=0) at i=14, j=6 of length 1
+Line detected by tid=9 (block=0) at i=14, j=9 of length 1
+Line detected by tid=13 (block=0) at i=14, j=13 of length 1
+Line detected by tid=14 (block=0) at i=14, j=14 of length 1
+Line detected by tid=0 (block=0) at i=14, j=0 of length 1
+Line detected by tid=3 (block=0) at i=14, j=3 of length 1
+Line detected by tid=8 (block=0) at i=14, j=8 of length 1
+Line detected by tid=10 (block=0) at i=14, j=10 of length 1
+Line detected by tid=12 (block=0) at i=14, j=12 of length 1
+Hist of k=0 is 46
+Hist of k=1 is 8
+Hist of k=2 is 6
+Hist of k=3 is 4
+Hist of k=4 is 0
+Hist of k=5 is 0
+Hist of k=6 is 0
+Hist of k=7 is 0
+Hist of k=8 is 0
+Hist of k=9 is 0
+Hist of k=10 is 0
+Hist of k=11 is 0
+Hist of k=12 is 0
+Hist of k=13 is 0
+Hist of k=14 is 0
 
-The LAM value is: 0.000000
- deltaT(ns): 185111 ns for 1 ops 
-        ==> each op takes 185111 ns
+The laminarity is LAM=0.354167
+ deltaT(ns): 1895281 ns for 1 ops 
+        ==> each op takes 1895281 ns
