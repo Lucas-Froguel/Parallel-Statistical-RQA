@@ -4,11 +4,7 @@
 #include <algorithm>
 #include <math.h>
 
-// For the CUDA runtime routines (prefixed with "cuda_")
-//#include <cuda_runtime.h>  // comentado por WZ (não precisamos disso!)
-
-//#include <helper_cuda.h>
-#include "helper_cuda.h"   // mudado aqui por WZ
+#include "helper_cuda.h"
 #include <cuda_runtime.h>
 #include "chrono.c"
 
@@ -61,7 +57,6 @@ __global__ void calculateLAM(int *xrand, int *yrand, float *d_map, float *d_LAM,
         float val = abs(mapx[iq] - mapy[jq]);
         if (val < e) m = 1;
         microstate[k] = m;
-        // printf("\nThread %i (global %i, block %i) on position i=%i and j=%i put on %i the value %i", tid, gtid, blockIdx.x, iq, jq, k, m);
     }
     // ensures the CRP / microstate is finished
     __syncthreads();
@@ -73,16 +68,13 @@ __global__ void calculateLAM(int *xrand, int *yrand, float *d_map, float *d_LAM,
         int line_length = 0;
         for (int k = 0; k < Q; k++){
             if (microstate[k + tid * Q] == 1){
-                // printf("\nHey, we detected a 1 by tid=%i (block=%i) at i=%i, j=%i", tid, blockIdx.x, k, tid);
                 line_length += 1;
                 if (k == Q - 1){
-                    // printf("\nLine detected by tid=%i (block=%i) at i=%i, j=%i of length %i", tid, blockIdx.x, k, tid, line_length);
                     atomicAdd(&histogram[line_length-1], 1);
                     line_length = 0;
                 }
             }
             else if (line_length > 0 && microstate[k + tid * Q] == 0){
-                // printf("\nLine detected by tid=%i (block=%i) at i=%i, j=%i of length %i", tid, blockIdx.x, k, tid, line_length);
                 atomicAdd(&histogram[line_length-1], 1);
                 line_length = 0;
             } 
@@ -100,7 +92,6 @@ __global__ void calculateLAM(int *xrand, int *yrand, float *d_map, float *d_LAM,
                 LAM += histogram[k] * (k+1);
             }
             total += histogram[k] * (k+1);
-            // printf("\nHist of k=%i is %i", k, histogram[k]);
         }
         if (total != 0) d_LAM[blockIdx.x] = LAM / total;
     }
@@ -118,8 +109,7 @@ int main(void){
     int numElements = 1000 * 1000;
     size_t size = numElements * sizeof(float);
     int threadsPerBlock = Q*Q; // max threads per MP / 2
-    if (threadsPerBlock > 768) threadsPerBlock = 768; // we want to maximize thw work
-    //int numBlocks = 2 * 28; // 2 * num of MPs
+    if (threadsPerBlock > 768) threadsPerBlock = 768; // we want to maximize the work
     int numBlocks = numElements / Q; // Q < numElements always
     int numThreads = threadsPerBlock * numBlocks;
     
@@ -132,7 +122,7 @@ int main(void){
     
     // Allocate the host vectors
     float *h_map = (float *)malloc(size);
-    float *h_LAM = (float *)malloc(numBlocks * sizeof(float)); // this will be the histogram of lines, from size 1 to Q
+    float *h_LAM = (float *)malloc(numBlocks * sizeof(float)); // this will store the LAM value of each microstate
     
     // Calculate logistic map
     h_map[0] = 0.4;
@@ -160,7 +150,6 @@ int main(void){
     for (int i = 0; i < numBlocks; i++){
         h_xrand[i] = rand() % (numElements - Q);
         h_yrand[i] = rand() % (numElements - Q);
-        // printf("\nx=%i, y=%i", h_xrand[i], h_yrand[i]);
     }
     int *d_xrand = NULL;
     int *d_yrand = NULL;
@@ -185,13 +174,12 @@ int main(void){
     }
     
     // Copy from GPU to CPU 
-    cudaMemcpy(h_LAM, d_LAM, numBlocks * sizeof(int), cudaMemcpyDefault);
+    cudaMemcpy(h_LAM, d_LAM, numBlocks * sizeof(float), cudaMemcpyDefault);
     
     // Calculate LAM using the LAMs of each block
     float LAM = 0;
     for (int k = 0; k < numBlocks; k++){
         LAM += h_LAM[k];
-        // printf("\nLAM(k=%i)=%f    LAM_t=%f", k, h_LAM[k], LAM);
     }
     LAM = LAM / numBlocks;
     
@@ -205,7 +193,7 @@ int main(void){
     chrono_reportTimeDetailed(&chrono_exec);
     total_time = chrono_get_TimeInLoop(&chrono_exec, 1);
     
-    // Free host and device memory
+    // Free host memory
     free(h_map);
 
     return 0;
