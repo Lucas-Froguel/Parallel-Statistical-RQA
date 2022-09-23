@@ -63,7 +63,7 @@ __global__ void calculateLAM(int *xrand, int *yrand, float *d_map, float *d_LAM,
     
     // each thread will look for lines in one row of the microstate
     // values will be CRP[tid, k], k\in[0, Q-1]
-    // assumes Q < threadsPerBlock (which is very reasonable)
+    // assumes Q < threadsPerBlock (which is very reasonable, given the amount of shared memory per block)
     if (tid < Q){
         int line_length = 0;
         for (int k = 0; k < Q; k++){
@@ -105,15 +105,16 @@ int main(void){
     // Check errors
     cudaError_t cudaerr = cudaSuccess;
 
+    for (int numElements = 100; numElements < 1000*1000*1000; numElements *= 4){
     // Define the vector length to be used and compute its size
-    int numElements = 1000 * 1000;
+//     int numElements = 1000 * 1000;
     size_t size = numElements * sizeof(float);
     int threadsPerBlock = Q*Q; // max threads per MP / 2
     if (threadsPerBlock > 768) threadsPerBlock = 768; // we want to maximize the work
     int numBlocks = numElements / Q; // Q < numElements always
     int numThreads = threadsPerBlock * numBlocks;
     
-    printf("\n-----SETUP-----\n\nnumElements=%i\nnumBlocks=%i\nthreadsPerBlock=%i\nQ=%i \n\n", numElements, numBlocks, threadsPerBlock, Q);
+//     printf("\n-----SETUP-----\n\nnumElements=%i\nnumBlocks=%i\nthreadsPerBlock=%i\nQ=%i \n\n", numElements, numBlocks, threadsPerBlock, Q);
     
     // Parameters
     float r = 4;
@@ -166,7 +167,7 @@ int main(void){
     chrono_start(&chrono_exec);
     
     // Activate kernel
-    printf("\n\n-----Launching Kernel-----\n\n");
+//     printf("\n\n-----Launching Kernel-----\n\n");
     calculateLAM<<<numBlocks, threadsPerBlock>>>(d_xrand, d_yrand, d_map, d_LAM, numElements, lmin, e);
     cudaerr = cudaDeviceSynchronize();
     if (cudaerr != cudaSuccess){
@@ -184,17 +185,20 @@ int main(void){
     LAM = LAM / numBlocks;
     
     // Print LAM
-    printf("\n\nThe laminarity is LAM=%f", LAM);
+//     printf("\n\nThe laminarity is LAM=%f", LAM);
     
     // Stop chronometer
     chrono_stop(&chrono_exec);
-    
-    // Report time statistics
-    chrono_reportTimeDetailed(&chrono_exec);
     total_time = chrono_get_TimeInLoop(&chrono_exec, 1);
     
+    printf("\n%i, %f, %i", numElements, LAM, total_time);
+    }
+    // Report time statistics
+//     chrono_reportTimeDetailed(&chrono_exec);
+//     total_time = chrono_get_TimeInLoop(&chrono_exec, 1);
+    
     // Free host memory
-    free(h_map);
+//     free(h_map);
 
     return 0;
 }

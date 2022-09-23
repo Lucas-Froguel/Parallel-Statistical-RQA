@@ -1,0 +1,12 @@
+  *-display
+       description: VGA compatible controller
+       product: GA106 [GeForce RTX 3060 Lite Hash Rate] [10DE:2504]
+       vendor: NVIDIA Corporation [10DE]
+       physical id: 0
+       bus info: pci@0000:01:00.0
+       version: a1
+       width: 64 bits
+       clock: 33MHz
+       capabilities: pm msi pciexpress vga_controller bus_master cap_list rom
+       configuration: driver=nvidia latency=0
+       resources: iomemory:400-3ff iomemory:400-3ff irq:139 memory:91000000-91ffffff memory:4000000000-400fffffff memory:4010000000-4011ffffff ioport:3000(size=128) memory:c0000-dffff
